@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap");
+
+body {
+  background: rgba(223, 194, 242, 7);
+  background-image: linear-gradient(to right, rgba(255, 255, 179, 0.6), rgba(230, 230, 250, 0.8));
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container {
+  box-shadow: 0 15px 30px 1px grey;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5em auto;
+  height: 350px;
+  width: 700px;
+}
+
+.event-details {
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  height: 100%;
+  float: left;
+  width: 40%;
+}
+
+.container .event-details h1 {
+  font-family: "Bebas Neue", cursive;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  color: #344055;
+  margin: 0;
+}
+
+.container .event-details h1:before {
+  position: absolute;
+  content: "";
+  right: 0%;
+  top: 0%;
+  transform: translate(25px, -15px);
+  font-family: "Bree Serif", serif;
+  display: inline-block;
+  background: #ffe6e6;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  color: white;
+  margin: 0;
+  animation: chan-sh 6s ease infinite;
+}
+
+.hint-star {
+  display: inline-block;
+  margin-left: 0.5em;
+  color: gold;
+  width: 50%;
+}
+
+.container .event-details > p {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 18px;
+  color: #7d7d7d;
+}
+.control {
+  position: absolute;
+  bottom: 20%;
+  left: 22.8%;
+}
+
+.event-image {
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  float: right;
+  width: 45%;
+  display: inline-block;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  background: rgba(27, 26, 26, 0.9);
+  font-family: "Bree Serif", serif;
+  transition: all 0.3s ease-out;
+  transform: translateX(-100%);
+  position: absolute;
+  padding: 10px;
+  line-height: 1.8;
+  text-align: left;
+  font-size: 105%;
+  cursor: no-drop;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.info h2 {
+  text-align: center;
+}
+.event-image:hover .info {
+  transform: translateX(0);
+}
+.event-image:hover img {
+  transition: all 0.3s ease-out;
+}
+.event-image:hover img {
+  transform: scale(1.2, 1.2);
+}
