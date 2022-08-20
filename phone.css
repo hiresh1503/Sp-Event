@@ -1,0 +1,30 @@
+.navbar{
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    height: 33px;
+    width: 80px;
+    padding: 10px;
+}
+.list{
+    padding: 2px 1.5rem;
+}
+.ulist a{
+    font-size: 13px;
+}
+.event-info .title{
+    font-size: 3rem;
+}
+.event-info p{
+    font-size: 1rem;
+}
+.event-info hr{
+    width: 21rem;
+}
+/* .head::before{
+    width: 55rem;
+} */
+/* .head{
+
+} */

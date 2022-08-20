@@ -2,7 +2,7 @@
 
 body {
   background: rgba(223, 194, 242, 7);
-  background-image: linear-gradient(to right, rgba(255, 255, 179, 0.6), rgba(230, 230, 250, 0.8));
+  background-image: linear-gradient(to right, rgba(244, 202, 250, 0.6), rgba(230, 230, 250, 0.6));
   background-attachment: fixed;
   background-size: cover;
 }
@@ -39,7 +39,7 @@ body {
   position: absolute;
   content: "";
   right: 0%;
-  top: 0%;
+  top: 0%;l
   transform: translate(25px, -15px);
   font-family: "Bree Serif", serif;
   display: inline-block;
