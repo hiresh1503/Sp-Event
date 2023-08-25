@@ -72,15 +72,23 @@
         height: 18.5rem;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     .container {
         margin: 3em auto;
         height: 256px;
-        width: 400px;
+        width: 380px;
+    }
+
+    .container .event-details {
+        padding: 10px 30px;
+        height: 100%;
+        float: left;
+        width: 36%;
     }
 
     .container .event-details h1 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .container .event-details>p {
@@ -114,17 +122,33 @@
     .end {
         height: 17rem;
     }
-    .social-media h3{
+
+    .social-media h3 {
         font-size: 1.2rem;
     }
-    .social-media a{
+
+    .social-media a {
         height: 1.5rem;
         font-size: 0.9em;
     }
-    .end p{
+
+    .end p {
         font-size: 15px;
     }
-    .display{
+
+    .display {
         margin: 1rem;
+    }
+
+    .head::before {
+        height: 90%;
+    }
+
+    .head {
+        height: 90vh;
+    }
+
+    .event-info p {
+        font-size: 1rem;
     }
 }

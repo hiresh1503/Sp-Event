@@ -20,17 +20,17 @@ body {
 .event-details {
   position: relative;
   overflow: hidden;
-  padding: 30px;
+  padding: 24px 30px;
   height: 100%;
   float: left;
-  width: 40%;
+  width: 36%;
 }
 
 .container .event-details h1 {
   font-family: "Bebas Neue", cursive;
   display: inline-block;
   position: relative;
-  font-size: 30px;
+  font-size: 22px 30px;
   color: #344055;
   margin: 0;
 }
@@ -78,7 +78,7 @@ body {
   overflow: hidden;
   height: 100%;
   float: right;
-  width: 45%;
+  width: 48%;
   display: inline-block;
 }
 
@@ -93,7 +93,7 @@ body {
   transition: all 0.3s ease-out;
   transform: translateX(-100%);
   position: absolute;
-  padding: 10px;
+  padding: 10px 10px;
   line-height: 1.8;
   text-align: left;
   font-size: 105%;
@@ -107,6 +107,10 @@ body {
 
 .info h2 {
   text-align: center;
+  margin-top: 1rem;
+}
+.info p{
+  padding-left: 2rem;
 }
 .event-image:hover .info {
   transform: translateX(0);

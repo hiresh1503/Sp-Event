@@ -73,6 +73,7 @@
     letter-spacing: 2px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0.9;
+    padding: 1rem;
 }
 .month{
     background-color:lavender;
