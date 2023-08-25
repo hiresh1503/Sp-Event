@@ -1,30 +1,130 @@
-.navbar{
-    flex-direction: column;
-    align-items: center;
-}
-.logo{
-    height: 33px;
-    width: 80px;
-    padding: 10px;
-}
-.list{
-    padding: 2px 1.5rem;
-}
-.ulist a{
-    font-size: 13px;
-}
-.event-info .title{
-    font-size: 3rem;
-}
-.event-info p{
-    font-size: 1rem;
-}
-.event-info hr{
-    width: 21rem;
-}
-/* .head::before{
-    width: 55rem;
-} */
-/* .head{
+@media screen and (max-width: 850px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
 
-} */
+    .logo {
+        height: 33px;
+        width: 80px;
+        padding: 10px;
+    }
+
+    .list {
+        padding: 2px 1.5rem;
+    }
+
+    .ulist a {
+        font-size: 13px;
+    }
+
+    .event-info .title {
+        font-size: 3rem;
+    }
+
+    .event-info p {
+        font-size: 1rem;
+    }
+
+    .event-info hr {
+        width: 21rem;
+    }
+
+    .container {
+        margin: 3em auto;
+        height: 280px;
+        width: 500px;
+    }
+
+    .container .event-details h1 {
+        font-size: 20px;
+    }
+
+    .container .event-details>p {
+        font-size: 15px;
+    }
+
+    .info {
+        font-size: 80%;
+    }
+
+    .month {
+        height: 4.5rem;
+    }
+
+    .month h2 {
+        font-size: 1.3em;
+    }
+
+    .social-media {
+        margin-right: 5rem;
+    }
+
+    .sp-logo {
+        margin-left: 5rem;
+    }
+
+    .sp-logo img {
+        height: 4rem;
+    }
+
+    .end {
+        height: 18.5rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .container {
+        margin: 3em auto;
+        height: 256px;
+        width: 400px;
+    }
+
+    .container .event-details h1 {
+        font-size: 18px;
+    }
+
+    .container .event-details>p {
+        font-size: 12px;
+    }
+
+    .info {
+        font-size: 65%;
+    }
+
+    .month {
+        height: 4rem;
+    }
+
+    .month h2 {
+        font-size: 1.1em;
+    }
+
+    .social-media {
+        margin-right: 2rem;
+    }
+
+    .sp-logo {
+        margin-left: 2rem;
+    }
+
+    .sp-logo img {
+        height: 3.5rem;
+    }
+
+    .end {
+        height: 17rem;
+    }
+    .social-media h3{
+        font-size: 1.2rem;
+    }
+    .social-media a{
+        height: 1.5rem;
+        font-size: 0.9em;
+    }
+    .end p{
+        font-size: 15px;
+    }
+    .display{
+        margin: 1rem;
+    }
+}
