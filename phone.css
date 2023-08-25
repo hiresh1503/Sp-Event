@@ -6,8 +6,9 @@
 
     .logo {
         height: 33px;
-        width: 80px;
+        width: 85px;
         padding: 10px;
+        padding-bottom: 4px;
     }
 
     .list {
@@ -15,7 +16,7 @@
     }
 
     .ulist a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .event-info .title {
@@ -74,6 +75,18 @@
 }
 
 @media screen and (max-width: 600px) {
+    .event-info .title{
+        padding-top: 12rem;
+    }
+    .event-info p{
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        letter-spacing: 2px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        opacity: 0.9;
+        padding: 1rem;
+    }
     .container {
         margin: 3em auto;
         height: 256px;
@@ -141,11 +154,11 @@
     }
 
     .head::before {
-        height: 90%;
+        height: 70%;
     }
 
     .head {
-        height: 90vh;
+        height: 70vh;
     }
 
     .event-info p {
