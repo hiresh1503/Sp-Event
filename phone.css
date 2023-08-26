@@ -90,14 +90,14 @@
     .container {
         margin: 3em auto;
         height: 256px;
-        width: 375px;
+        width: 350px;
     }
 
     .container .event-details {
-        padding: 10px 30px;
+        padding: 10px 18px;
         height: 100%;
         float: left;
-        width: 36%;
+        width: 41%;
     }
 
     .container .event-details h1 {
