@@ -90,7 +90,7 @@
     .container {
         margin: 3em auto;
         height: 256px;
-        width: 380px;
+        width: 375px;
     }
 
     .container .event-details {
@@ -121,11 +121,11 @@
     }
 
     .social-media {
-        margin-right: 2rem;
+        margin-right: 1.5rem;
     }
 
     .sp-logo {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
 
     .sp-logo img {
@@ -146,7 +146,7 @@
     }
 
     .end p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .display {
